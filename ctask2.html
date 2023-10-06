@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Task Manager</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Tasks</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main id="app">
+        <!-- Task Lists Section -->
+        <section id="task_lists">
+            <h2>Task Lists</h2>
+            <ul>
+                <!-- Sample Task List Item (you can add more dynamically using JavaScript) -->
+                <li>
+                    <a href="#">Task List 1</a>
+                    <button>Edit</button>
+                    <button>Remove</button>
+                    <!-- Nested ul for tasks -->
+                    <ul>
+                        <li>Assingments</li>
+                        <li>Field viste</li>
+                    </ul>
+                </li>
+                <!-- Add more task list items here -->
+            </ul>
+        </section>
+    </main>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.0.11/dist/vue.global.prod.js"></script>
+    <!-- Your Custom JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
